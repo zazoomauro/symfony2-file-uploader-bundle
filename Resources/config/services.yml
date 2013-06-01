@@ -73,6 +73,8 @@ services:
             sizes: '%file_uploader.sizes%'
             originals: '%file_uploader.originals%'
             max_number_of_files: '%file_uploader.max_number_of_files%'
+            max_file_size: '%file_uploader.max_file_size%'
+            min_file_size: '%file_uploader.min_file_size%'
         scope: request
 
     # You usually won't need this sub-service directly,
