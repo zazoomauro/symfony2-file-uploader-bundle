@@ -17,5 +17,5 @@
         "php": ">=5.3.2",
         "symfony/framework-bundle": "2.*"
     },
-    "target-dir": "PunkAve/FileUploaderBundle",
+    "target-dir": "PunkAve/FileUploaderBundle"
 }
