@@ -109,7 +109,7 @@ class FileUploader
                 'script_url' => $options['request']->getUri(),
                 'image_versions' => $sizes,
                 'accept_file_types' => $allowedExtensionsRegex,
-                'max_number_of_files' => ($customMaxNumberOfFiles) ? : $options['max_number_of_files'],
+                'max_number_of_files' => (is_null($customMaxNumberOfFiles)) ? $options['max_number_of_files'] : $customMaxNumberOfFiles,
                 'max_file_size' => $options['max_file_size'],
                 'min_file_size' => $options['min_file_size']
             ));
